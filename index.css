@@ -1,0 +1,14 @@
+.container {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.container img {
+    height: 100%;
+    -webkit-mask-image: url(boom.svg);
+    -webkit-mask-position: center;
+    -webkit-mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+}
+
